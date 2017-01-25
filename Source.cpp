@@ -193,7 +193,7 @@ int main()
 		X.Medges = mEdges;
 		//Open File
 		string line, fileNom;
-		fileNom = "D:/coursera/stanford data struc and algos/3/kargerMinCut.txt"; //filepath and filename you must specify
+		fileNom = "D:/kargerMinCut.txt"; //filepath and filename you must specify
 
 		ifstream myfile(fileNom);
 		if (myfile.is_open())
