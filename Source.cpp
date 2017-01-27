@@ -216,7 +216,7 @@ int main()
 		if (First == true)
 		{
 			string line, fileNom;
-			fileNom = "D:/coursera/stanford data struc and algos/3/kargerMinCut.txt";
+			fileNom = "D:/kargerMinCut.txt"; //filepath and filename to parse.
 			ifstream myfile(fileNom);
 			if (myfile.is_open())
 			{
