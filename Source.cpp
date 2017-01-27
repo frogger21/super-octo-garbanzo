@@ -20,6 +20,7 @@ struct Graph
 bool aNumber(char *a)
 {
 	int temp = static_cast<int>(*a);
+	// [48,57] is ascii for numbers
 	if (temp <= 57 && temp >= 48)
 	{
 		return true;
