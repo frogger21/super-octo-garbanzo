@@ -188,7 +188,7 @@ void copyGraph(Graph &Original,Graph &Copyee)
 		temp.src = i1->src;
 		Copyee.Edges.push_back(temp);
 	}
-	Copyee.Edges = Original.Edges;
+	//Copyee.Edges = Original.Edges;
 	Copyee.Medges = Original.Medges;
 	Copyee.Nvertices = Original.Nvertices;
 }
