@@ -183,8 +183,6 @@ void copyGraph(Graph &Original,Graph &Copyee)
 {
 	list<Edge>::iterator i1; //original
 	Edge temp;
-	//list<Edge>::iterator i2; //copyee
-	//i2 = Copyee.Edges.begin();
 	for (i1 = Original.Edges.begin(); i1 != Original.Edges.end(); ++i1)
 	{
 		temp.dest = i1->dest;
