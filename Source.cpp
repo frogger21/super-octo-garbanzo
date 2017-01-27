@@ -125,9 +125,7 @@ int kargerContract(Graph &X)
 	int a, b;
 	int a2, b2;
 	int mincut;
-	bool A, B;
-	A = false; //initialize
-	B = false; //initialize
+
 
 	while (X.Nvertices > 2)
 	{
