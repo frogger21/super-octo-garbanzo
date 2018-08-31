@@ -12,3 +12,8 @@ and tell you the smallest minimum cut it got from the Karger algorithm.
 
 You must specify the filepath and filename of the text file that has the matrix in the source code.
 You must also specify within the source code the number of trials you wish to do.
+
+img source: wikipedia
+![alt text](https://github.com/frogger21/super-octo-garbanzo/blob/master/karger.PNG)
+
+Karger algorithm will find the minimum cut via a randomimized process.
